@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+        .header{
+            background-color: lightblue;
+            color: white;
+            padding: 10px;
+            text-align: center;
+
+        }
+        nav a{
+            color: white;
+            display: inline-block;
+            text-decoration: none;
+            padding: 20px;
+        }
+        nav a:hover{
+            background-color: lightblue;
+        }
+        #profile {
+            text-align: center;
+            background-color: white;
+            color: black;
+            
+            width: 70%;
+            height: 55px;
+            margin-left: 15%;
+            
+
+        }
+        #about{
+            background-color: white;
+            height: 200px;
+            width: 70%;
+            margin-left: 15%;
+            
+        }
+        #about p{
+            
+            color:black;
+            left: 30%;
+            top: 250px;
+            position: absolute;
+        
+            } 
+        #skills{
+            background-color: white;
+            height: 250px;
+            width: 70%;
+            margin-left: 15%;
+        }
+        #skills table{
+            border-color: white;
+            margin-left:6px;
+        }
+        #work{
+            background-color: white;
+            height: 430px;
+            width: 70%;
+            margin-left: 15%;
+        }
+        .box1{
+            height: 150px;
+            width: 300px;
+            background-color: lightgray;
+            border-radius: 8px;
+            margin-left: 20px;
+            
+            
+            text-align: center;
+        }
+        .box1 img{
+            margin-top: 10px;
+        }
+        .box2{
+            height: 150px;
+            width: 300px;
+            background-color: lightgray;
+            border-radius: 8px;
+            margin-left: 340px;
+            text-align: center;
+            top: 720px;
+            position: absolute;
+        }
+        .box2 img{
+            margin-top: 10px;
+        }
+        .box3{height: 150px;
+            background-color: lightgray;
+            width: 300px;
+            border-radius: 8px;
+            margin-left: 20px;
+            margin-top: 30px;
+            text-align: center;
+            
+            
+
+        }
+        #contact{
+            height: 400px;
+            width: 70%;
+            margin-left: 15%;
+            background-color: white;
+        }
+        input{
+            width:800px;
+            border:none;
+            height:50px;
+            margin-left: 5%;
+            outline: none;
+
+        }
+        input:hover{
+            border:2px solid white;
+            outline: auto;
+            width: 800px;
+            height:50px;
+            margin-left: 5%;
+        }
+        textarea{
+            margin-left: 2%;
+            outline: none;
+            border: none;
+            height: 50px;
+            width: 800px;
+        }
+        textarea:hover{
+            border:2px solid white;
+            outline: auto;
+            width:800px;
+            height: 50px;
+            margin-left: 2%;
+            
+        }
+        button{
+            background-color: lightgreen;
+            padding: 4px;
+            outline: none;
+            border:none;
+            margin-left: 2px;
+        }
+        .footer{
+            background-color: lightblue;
+            height: 70px;
+            width:100%;
+            text-align: center;
+            }
+         .footer p{
+            padding: 30px 0px 0px 0px ;
+            color: white;
+            margin-top: 10px;
+
+         }   
+            
+            
+        
+        
+        
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <a href="#profile">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#work">WORK</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+
+    </div>
+    <div id="profile">
+    <h1>Welcome to my Portfolia</h1>
+    </div>
+    <div id="about">
+    <h2>About me</h2>
+    <img src="https://s.ndtvimg.com/images/entities/300/virat-kohli-967.png" height=100px width=100px>
+    <p>Hello I'm a web developer with a passion for creating beautiful and functional wedsites </p>
+    </div>
+    <div id="skills">
+        <h2>My Skills</h2>
+        <table border="1" style="width: 1040px;"cellspacing="0"cellpadding="12">
+            
+            <thead>
+                <tr bgcolor="lightblue">
+
+                    <th>skills</th>
+                    <th>Proficiency</th>
+                </tr>
+
+            </thead>
+            <tbody><tr>
+                <td>HTML</td>
+                <td>Expert</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>Javascript</td>
+                <td>Intermediate</td>
+            </tr>
+                
+            </tbody>
+        </table>
+    </div>
+    <div id="work">
+        <h2>My Work</h2>
+        <div class="box1",mnbvd>
+            <img src="./girl">project1
+            
+            <h2>Project One</h2>
+            <p>Description of Project One</p>
+            </div>
+            <div class="box2">
+                
+                
+                <img src="./girl">project2
+                <h2>Project Two</h2>
+                <p>Description of Project Two</p>
+            </div>
+            <div class="box3">
+                <img src="./dfg">Project3
+                <h2>Project Three</h2>
+                <p>Description of Project Three</p>
+        </div>
+     </div>
+     <br>
+     <div id="contact">
+        <h3>Contact Me</h3>
+        <label for="Name">Name</label><br>
+        <input type="text" id="Name" name=""placeholder="">
+        <br>
+
+        <label for="Email">Email</label><br>
+        <input type="text" id="Email"name=""placeholder="">
+        <br>
+
+        <label for="Subject">Subject</label><br>
+        <input type="text"id="Subject" name=""placeholder="">
+        <br>
+        <label for="Message">Message</label><br>
+        <textarea name="Message"id="Message"placeholder=""></textarea>
+        <br>
+        <button type="submit">Send Message</button>
+        
+     </div>
+     <div class="footer">
+        <p>@2024 my portfolio</p>
+
+     </div>
+        
+    
+</body>
+</html>
